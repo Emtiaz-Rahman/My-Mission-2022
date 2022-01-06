@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+}
+section{
+    margin-bottom:70px
+}
+/* ========= common css end ========== */
+.nav_part{
+    text-align: center;
+    background: tomato;
+    padding: 15px 0;
+}
+.nav_part a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #f1f1f1;
+    font-weight: bold;
+}
+/* ========= nav part end ======= */
+.header_part{
+    display: flex;
+}
+
+.half_width{
+    width: 45%;
+    padding-left: 5%;
+}
+.half_width img{
+    width: 80%;
+}
+.header_text{
+    padding-top: 150px;
+}
+.header_text h1{
+    border-left: 4px solid tomato;
+    padding-left:10px;
+}
+.button{
+    text-decoration: none;
+    font: size 18px;
+    padding: 10px 40px;
+    background-color: tomato;
+    border-radius: 20px;
+    margin-top: 25px;
+    display: inline-block;
+    color: white;
+
+}
+/* ========== header part end ========== */
+.mission_area{
+    padding: 0 40px;
+}
+.orange{
+    color: tomato;
+    display: block;
+}
+.mission_container{
+    display: flex;
+}
+.mission_area img{
+    width: 30%;
+}
+.mission_area h1{
+    text-align: center;
+}
+.mission_area h1 span{
+    color: tomato;
+
+}
+.mission_part{
+    background-color:#4F9DA61A;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.vission_part{
+    background-color:#FF59591A;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.goals_part{
+    background-color: #FFF4D6;
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+/* ===========  mission area end ========= */
+.develop_part{
+    display: flex;
+}
+.develop_part img{
+    width: 80%;
+}
+.develop_span{
+    display: block;
+}
+.develop_text{
+    margin-top: 30px;
+}
+/* ============= develop part end ======= */
+
+.global_part{
+    display: flex;
+}
+.global_part img{
+    width: 80%;
+}
+/* ==================== global part end ============ */
+#contactme_part {
+    padding: 30px 0 90px;
+    background: url(../images/person/cover2.jpg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+.contactme_text {
+    text-align: center;
+
+}
+
+.contactme_text h2 {
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.contactme_form {
+    display: inline-block;
+    text-align: center;
+}
+
+.contactme_form input {
+    display: block;
+    width: 500px;
+    height: 55px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.contactme_form input:nth-child(3) {
+    width: 500px;
+    height: 155px;
+    padding-top: 0;
+
+}
+
+.contactme_form button {
+    padding: 10px 40px;
+    text-align: center;
+    border: 0;
+    background: tomato;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.contactme_form button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+
+::placeholder {
+    font-size: 15px;
+    font-weight: 400;
+}
+/* ============= contact me part end ============ */
+.footer_part{
+    text-align: center;
+    background: Black;
+    color:#fff;
+    padding: 10px 0;
+}
+.footer_part h3 span{
+    color: tomato;
+}
+
+/* ============== footer part end ============ */
