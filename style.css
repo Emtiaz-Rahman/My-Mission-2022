@@ -26,6 +26,7 @@ section{
 /* ========= nav part end ======= */
 .header_part{
     display: flex;
+    padding-top: 50px;
 }
 
 .half_width{
@@ -34,9 +35,6 @@ section{
 }
 .half_width img{
     width: 80%;
-}
-.header_text{
-    padding-top: 150px;
 }
 .header_text h1{
     border-left: 4px solid tomato;
